@@ -1,0 +1,16 @@
+[ 2025-09-18 17:58:09,228 ] 19 root - INFO - Starting data ingestion process.
+[ 2025-09-18 17:58:09,616 ] 23 root - INFO - Successfully read the dataset as a DataFrame.
+[ 2025-09-18 17:58:11,497 ] 30 root - INFO - Raw data saved to artifacts folder.
+[ 2025-09-18 17:58:11,497 ] 32 root - INFO - Data ingestion process completed successfully.
+[ 2025-09-18 17:58:11,911 ] 37 root - INFO - Read raw data completed.
+[ 2025-09-18 17:58:11,912 ] 41 root - INFO - Removing outliers from Power_Consumption.
+[ 2025-09-18 17:58:11,944 ] 48 root - INFO - Outliers removed.
+[ 2025-09-18 17:58:11,945 ] 52 root - INFO - Dropping 'Equipment_ID' and separating target variable 'Failure_Cause'.
+[ 2025-09-18 17:58:11,959 ] 59 root - INFO - Performing train-test split.
+[ 2025-09-18 17:58:12,015 ] 64 root - INFO - Train-test split completed.
+[ 2025-09-18 17:58:12,016 ] 67 root - INFO - Obtaining preprocessing object and target encoder.
+[ 2025-09-18 17:58:12,016 ] 143 root - INFO - Numerical columns: ['Temperature', 'Pressure', 'Vibration', 'Humidity', 'Flow_Rate', 'Power_Consumption', 'Oil_Level', 'Voltage', 'Maintenance_Cost', 'Production_Volume', 'Planned_Downtime_Hours', 'Shifts_Per_Day', 'Production_Days_Per_Week']
+[ 2025-09-18 17:58:12,016 ] 144 root - INFO - Categorical columns: ['Maintenance_Type', 'Installation_Date', 'Failure_Date', 'Maintenance_Date']
+[ 2025-09-18 17:58:12,016 ] 73 root - INFO - Applying preprocessing on training and testing dataframes.
+[ 2025-09-18 17:58:14,228 ] 86 root - INFO - Applying target encoding on training and testing data.
+[ 2025-09-18 17:58:24,588 ] 102 root - INFO - Saved preprocessing and target encoder objects.
