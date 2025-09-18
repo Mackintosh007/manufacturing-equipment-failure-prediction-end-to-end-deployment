@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: manufacturing_equipment_failure_prediction
+Version: 0.1.0
+Summary: A machine learning model for predicting manufacturing equipment failure 
+Home-page: https://github.com/Mackintosh007/manufacturing-equipment-failure-prediction-end-to-end-deployment
+Author: Mackintosh Odika
+Author-email: odikamackintosh@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+pending: this is going to be the project details
