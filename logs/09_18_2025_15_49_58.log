@@ -1,0 +1,6 @@
+[ 2025-09-18 15:50:11,531 ] 29 root - INFO - Starting data ingestion process.
+[ 2025-09-18 15:50:11,943 ] 32 root - INFO - Successfully read the dataset as a DataFrame.
+[ 2025-09-18 15:50:13,877 ] 38 root - INFO - Raw data saved to artifacts folder.
+[ 2025-09-18 15:50:13,878 ] 40 root - INFO - Initiating train-test split.
+[ 2025-09-18 15:50:15,744 ] 46 root - INFO - Train and test data saved to artifacts folder.
+[ 2025-09-18 15:50:15,744 ] 48 root - INFO - Data ingestion process completed successfully.

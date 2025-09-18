@@ -1,1 +1,15 @@
-# content for requirements.txt
+# Core machine learning libraries for the ANN model
+tensorflow==2.16.1
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2
+
+# Packages for data visualization and plotting
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Packages for the FastAPI web API and server
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
